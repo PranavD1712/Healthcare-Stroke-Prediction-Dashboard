@@ -1,13 +1,11 @@
 # Healthcare Stroke Prediction Dashboard (SQL + Excel)
 
 This project analyzes stroke risk patterns using a healthcare dataset of **5,110 patient records**.
-
 The analysis was performed using **SQL for data querying** and **Microsoft Excel (Pivot Tables + Slicers)** for dashboard creation.
 
 ---
 
 ## Objective:
-
 To explore stroke occurrence patterns across different demographic and health factors and present insights through an interactive Excel dashboard.
 
 ---
@@ -91,7 +89,7 @@ To explore stroke occurrence patterns across different demographic and health fa
 - Data storytelling using Excel
 
 ---
-## Repository Structure
+## Repository Structure:
 
 ```
 Healthcare-Stroke-Prediction-Dashboard
@@ -105,7 +103,7 @@ Healthcare-Stroke-Prediction-Dashboard
 │
 ├── sql
 │   ├── 01_age_analysis.sql
-│   ├── 02_risk_analysis.sql
+│   ├── 02_heart_analysis.sql
 │   └── 03_risk_combos.sql
 │
 ├── dashboard
@@ -121,7 +119,7 @@ This project demonstrates how healthcare data can be analyzed using SQL and visu
 
 ---
 
-## Author
+## Author:
 
 **Pranav Deshmukh**  
  Data Analyst  
