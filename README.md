@@ -91,32 +91,31 @@ To explore stroke occurrence patterns across different demographic and health fa
 - Data storytelling using Excel
 
 ---
-## Repository Structure:
+## Repository Structure
 
-Healthcare-Stroke-Prediciton-Dashboard
+```
+Healthcare-Stroke-Prediction-Dashboard
 │
 ├── data
-│ ├── raw
-│ │ └── StrokeData.csv
-│ │
-│ └── processed
-│ └── StrokeData_Cleaned.xlsx
+│   ├── raw
+│   │   └── Raw_Data.csv
+│   │
+│   └── processed
+│       └── Raw_Data_Cleaned.xlsx
 │
 ├── sql
-│ ├── 01_data_exploration.sql
-│ ├── 02_risk_analysis.sql
-│ └── 03_kpi_queries.sql
+│   ├── 01_age_analysis.sql
+│   ├── 02_risk_analysis.sql
+│   └── 03_risk_combos.sql
 │
 ├── dashboard
-│ ├── Healthcare_Stroke_Dashboard.xlsx
-│ └── dashboard_Preview.png
+│   ├── Healthcare_Stroke_Dashboard.xlsx
+│   └── dashboard_Preview.png
 │
 └── README.md
+```
 
-
----
-
-## Conclusion
+## Conclusion:
 
 This project demonstrates how healthcare data can be analyzed using SQL and visualized through Excel dashboards to identify stroke risk patterns across demographic and health-related factors.
 
