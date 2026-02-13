@@ -76,7 +76,7 @@ To explore stroke occurrence patterns across different demographic and health fa
 
 ## Dashboard Preview:
 
-![Dashboard Preview](dashboard/dashboard_preview.png)
+![Dashboard Preview](Dashboard/Dashboard_Preview.png)
 
 ---
 
