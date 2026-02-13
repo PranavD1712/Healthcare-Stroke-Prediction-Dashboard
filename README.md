@@ -1,238 +1,130 @@
-\# Healthcare Stroke Risk Analysis (SQL + Excel Dashboard)
+# Healthcare Stroke Prediction Dashboard (SQL + Excel)
 
+This project analyzes stroke risk patterns using a healthcare dataset of **5,110 patient records**.
 
-
-This project analyzes stroke risk patterns using a healthcare dataset of \*\*5,110 patient records\*\*.  
-
-The analysis was performed using \*\*SQL for data querying\*\* and \*\*Microsoft Excel (Pivot Tables + Slicers)\*\* for dashboard creation.
-
-
+The analysis was performed using **SQL for data querying** and **Microsoft Excel (Pivot Tables + Slicers)** for dashboard creation.
 
 ---
 
-
-
-\## Objective:
-
-
+## Objective:
 
 To explore stroke occurrence patterns across different demographic and health factors and present insights through an interactive Excel dashboard.
 
+---
 
+## Tools Used:
+
+- MySQL (Data aggregation & analysis queries)
+- Microsoft Excel
+  - Pivot Tables
+  - Pivot Charts
+  - Slicers
+  - KPI Calculations
 
 ---
 
+## Dataset Overview:
 
-
-\## Tools Used:
-
-
-
-\- MySQL (Data aggregation \& analysis queries)
-
-\- Microsoft Excel
-
-&nbsp; - Pivot Tables
-
-&nbsp; - Pivot Charts
-
-&nbsp; - Slicers
-
-&nbsp; - KPI Calculations
-
-
+- Total Records: 5,110 patients
+- Target Variable: `stroke` (0 = No Stroke, 1 = Stroke)
+- Key Features Used:
+  - Age
+  - Gender
+  - Smoking Status
+  - Hypertension
+  - BMI
+  - Glucose Level
 
 ---
 
+## Analysis Performed:
 
+### Stroke Distribution by Age Group
 
-\## Dataset Overview:
+- Created Age Groups (Child, Middle Age, Senior, Young Adult)
+- Calculated total patients and stroke cases per group
+- Computed stroke rate percentage
 
+### Smoking + Hypertension Risk Matrix
 
+- Analyzed stroke occurrence by smoking status
+- Compared risk across hypertension categories
+- Identified highest risk combination
 
-\- Total Records: 5,110 patients
+### KPI Metrics Displayed
 
-\- Target Variable: `stroke` (0 = No Stroke, 1 = Stroke)
+- Stroke Rate %
+- Total Senior Patients
+- Highest Risk Group %
 
-\- Key Features Used:
+### Interactive Filtering
 
-&nbsp; - Age
-
-&nbsp; - Gender
-
-&nbsp; - Smoking Status
-
-&nbsp; - Hypertension
-
-&nbsp; - BMI
-
-&nbsp; - Glucose Level
-
-
-
----
-
-
-
-\## Analysis Performed:
-
-
-
-\### Stroke Distribution by Age Group
-
-\- Created Age Groups (Child, Middle Age, Senior, Young Adult)
-
-\- Calculated total patients and stroke cases per group
-
-\- Computed stroke rate percentage
-
-
-
-\###  Smoking + Hypertension Risk Matrix
-
-\- Analyzed stroke occurrence by smoking status
-
-\- Compared risk across hypertension categories
-
-\- Identified highest risk combination
-
-
-
-\###  KPI Metrics Displayed
-
-\- Stroke Rate %
-
-\- Total Senior Patients
-
-\- Highest Risk Group %
-
-
-
-\###  Interactive Filtering
-
-\- Added slicers for:
-
-&nbsp; - Age Group
-
-&nbsp; - Smoking Status
-
-&nbsp; - Gender
-
-\- Enabled dynamic dashboard updates
-
-
+- Added slicers for:
+  - Age Group
+  - Smoking Status
+  - Gender
+- Enabled dynamic dashboard updates
 
 ---
 
+## Key Insights:
 
-
-\##  Key Insights:
-
-
-
-\- Senior patients represent approximately 30% of the total population.
-
-\- Smoking combined with hypertension shows the highest stroke risk.
-
-\- Stroke distribution varies significantly across age groups.
-
-\- Interactive slicers allow demographic-based analysis.
-
-
+- Senior patients represent approximately 30% of the total population.
+- Smoking combined with hypertension shows the highest stroke risk.
+- Stroke distribution varies significantly across age groups.
+- Interactive slicers allow demographic-based analysis.
 
 ---
 
+## Dashboard Preview:
 
-
-\## Dashboard Preview:
-
-
-
-!\[Dashboard Preview](dashboard/dashboard\_preview.png)
-
-
+![Dashboard Preview](dashboard/dashboard_preview.png)
 
 ---
 
+## What This Project Demonstrates:
 
-
-\##  What This Project Demonstrates:
-
-
-
-\- SQL aggregation and grouping queries
-
-\- Risk percentage calculation
-
-\- Pivot-based data analysis
-
-\- Dashboard structuring and KPI reporting
-
-\- Data storytelling using Excel
-
-
+- SQL aggregation and grouping queries
+- Risk percentage calculation
+- Pivot-based data analysis
+- Dashboard structuring and KPI reporting
+- Data storytelling using Excel
 
 ---
+## Repository Structure:
 
-
-
-\## Repository Structure:
-
-
-
-```
-
-Healthcare-Stroke-Risk-Analysis
-
+Healthcare-Stroke-Prediciton-Dashboard
 │
-
 ├── data
-
-│   ├── raw
-
-│   │   └── StrokeData.csv
-
-│   │
-
-│   └── processed
-
-│       └── StrokeData\_Cleaned.xlsx
-
+│ ├── raw
+│ │ └── StrokeData.csv
+│ │
+│ └── processed
+│ └── StrokeData_Cleaned.xlsx
 │
-
 ├── sql
-
-│   ├── 01\_data\_exploration.sql
-
-│   ├── 02\_risk\_analysis.sql
-
-│   └── 03\_kpi\_queries.sql
-
+│ ├── 01_data_exploration.sql
+│ ├── 02_risk_analysis.sql
+│ └── 03_kpi_queries.sql
 │
-
 ├── dashboard
-
-│   ├── Healthcare\_Stroke\_Dashboard.xlsx
-
-│   └── dashboard\_screenshot.png
-
+│ ├── Healthcare_Stroke_Dashboard.xlsx
+│ └── dashboard_Preview.png
 │
-
 └── README.md
 
-```
-
-
 
 ---
 
-
-
-\## Conclusion
-
-
+## Conclusion
 
 This project demonstrates how healthcare data can be analyzed using SQL and visualized through Excel dashboards to identify stroke risk patterns across demographic and health-related factors.
 
+---
+
+## Author
+
+**Pranav Deshmukh**  
+ Data Analyst  
 
 
